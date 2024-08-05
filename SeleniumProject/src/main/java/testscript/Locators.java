@@ -30,7 +30,7 @@ public class Locators extends Base{
    public void partialLinkText() {
 	   WebElement element1=driver.findElement(By.partialLinkText("Select Input"));
 	   WebElement element2=driver.findElement(By.partialLinkText("Form Submit"));
-	   WebElement element3=driver.findElement(By.partialLinkText("Ajax Form Submit"));
+	   WebElement element3=driver.findElement(By.partialLinkText("Ajax For"));
    }
 
 	public static void main(String[] args) {
